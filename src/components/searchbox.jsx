@@ -8,21 +8,21 @@ const predefinedSuggestions = [
     title: "دوره جامع بازسازی ساختمان",
     link: "/info/بازسازی-ساختمان",
     description: "آموزش کامل اصول و تکنیک‌های بازسازی ساختمان",
-    image: "/reconstruction/1.png"
+    image: "/reconstruction/1.webp"
   },
   {
     id: 2,
     title: "دوره جامع نورپردازی",
     link: "/info/نورپردازی",
     description: "یادگیری اصول طراحی نور در فضاهای داخلی و خارجی",
-    image: "/Lighting/8.png"
+    image: "/Lighting/8.webp"
   },
   {
     id: 3,
     title: "مدلسازی و رندرینگ",
     link: "/info/مدلسازی-رندرینگ",
     description: "آموزش کامل مدلسازی سه بعدی و رندرینگ",
-    image: "/Modeling/3.png"
+    image: "/Modeling/3.webp"
   },
 ];
 
