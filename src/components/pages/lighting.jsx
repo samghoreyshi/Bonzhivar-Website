@@ -69,9 +69,9 @@ const Modeling = () => {
                   <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
                 </svg>
               </div>
-              <h1 className="">دوره جامع نورپردازی - از مبتدی تا پیشرفته</h1>
+              <h1 className="font-IranYekan font-extrabold ">دوره جامع نورپردازی</h1>
             </div>
-            <p className="font-IranYekan text-accentDark text-base sm:text-base text-justify direction-rtl leading-relaxed">
+            <p className="font-IranYekan text-accentDark text-sm sm:text-base text-justify direction-rtl leading-relaxed">
               این دوره جامع، به شما اصول و تکنیک‌های کاربردی نورپردازی را
               به‌صورت کامل و از پایه تا پیشرفته آموزش می‌دهد. در طول دوره، با
               انواع مختلف نور و نحوه استفاده بهینه از آن‌ها آشنا می‌شوید. اگر به
@@ -100,7 +100,7 @@ const Modeling = () => {
             <h2 className="font-IranYekan text-right font-bold text-accent text-2xl sm:text-4xl">
               چرا نورپردازی مهم است؟
             </h2>
-            <p className="font-IranYekan text-accentDark text-base sm:text-base text-justify direction-rtl">
+            <p className="font-IranYekan text-accentDark text-sm sm:text-base text-justify direction-rtl">
               نورپردازی فضای داخلی یکی از عوامل کلیدی در طراحی و دکوراسیون است
               که تأثیر چشمگیری بر جو، عملکرد و حتی احساسات ساکنان آن فضا دارد.
               نورپردازی مناسب می‌تواند یک فضای ساده را به محیطی دلپذیر، گرم و
@@ -128,12 +128,12 @@ const Modeling = () => {
             <h2 className="font-IranYekan text-right font-bold text-accent  text-2xl sm:text-4xl">
               این دوره شامل چه مباحثی است؟
             </h2>
-            <p className="font-IranYekan text-accentDark text-base sm:text-base text-justify direction-rtl">
+            <p className="font-IranYekan text-accentDark text-sm sm:text-base text-justify direction-rtl">
               در دوره جامع نورپردازی، سرفصل‌های متنوع و کاربردی برای تسلط شما بر
               اصول و تکنیک‌های نورپردازی در نظر گرفته شده است. این مباحث از اصول
               پایه نورپردازی تا تکنیک‌های پیشرفته را شامل می‌شود:
             </p>
-            <ul className="font-IranYekan text-accentDark text-base sm:text-base text-justify direction-rtl list-disc pl-6 mr-10">
+            <ul className="font-IranYekan text-accentDark text-sm sm:text-base text-justify direction-rtl list-disc pl-6 mr-10">
               <li className="mb-2">
                 <h3>
                   آشنایی با انواع نورها: بررسی انواع نور طبیعی و مصنوعی و نحوه
@@ -181,10 +181,10 @@ const Modeling = () => {
                 />
               </div>
             </div>
-            <h2 className="font-IranYekan text-right font-bold text-accent  text-2xl sm:text-4xl">
+            {/* <h2 className="font-IranYekan text-right font-bold text-accent  text-2xl sm:text-4xl">
               مزایای شرکت در دوره بازسازی ساختمان
             </h2>
-            <ul className="font-IranYekan text-accentDark text-base sm:text-base text-justify direction-rtl list-disc pl-6 mr-10">
+            <ul className="font-IranYekan text-accentDark text-sm sm:text-base text-justify direction-rtl list-disc pl-6 mr-10">
               <li className="mb-2">
                 <h3>
                   کسب مهارت‌های عملی و کاربردی: با تمرینات عملی و کارگاهی، شما
@@ -211,14 +211,14 @@ const Modeling = () => {
                   می‌تواند فرصت‌های شغلی جدید برای شما به همراه داشته باشد.
                 </h3>
               </li>
-            </ul>
+            </ul> */}
             <CTA />
             <h2 className="font-IranYekan text-right font-bold text-accent  text-2xl sm:text-4xl">
               سر فصل های دوره
             </h2>
             <div className="w-full">
               <Accordion title=" مبانی و اصول نورپردازی">
-                <p>
+                <p className="font-IranYekan text-accentDark text-sm sm:text-base text-justify direction-rtl">
                   این سرفصل به مفاهیم پایه‌ای نورپردازی می‌پردازد و به شما کمک
                   می‌کند اصول اولیه‌ای که هر طراح یا عکاس باید بداند را درک
                   کنید. در این بخش، با انواع مختلف نور و ویژگی‌های آن‌ها،
@@ -227,7 +227,7 @@ const Modeling = () => {
                   با نور طبیعی و مصنوعی، تنظیم شدت و زاویه نور، و تأثیرگذاری نور
                   بر فضاها و تصاویر می‌دهند.
                 </p>
-                <ul className="font-IranYekan text-accentDark text-base sm:text-base text-justify direction-rtl list-disc pl-6 mr-10 mt-5">
+                <ul className="font-IranYekan text-accentDark text-sm sm:text-base text-justify direction-rtl list-disc pl-6 mr-10 mt-5">
                   <li>
                     <h3>
                       آشنایی با انواع نور و کاربردهای آن‌ها نور طبیعی (نور
@@ -275,7 +275,7 @@ const Modeling = () => {
                 </ul>
               </Accordion>
               <Accordion title=" تکنیک‌های نورپردازی داخلی">
-                <p>
+                <p className="font-IranYekan text-accentDark text-sm sm:text-base text-justify direction-rtl">
                   این بخش از دوره به شما یاد می‌دهد که چگونه با استفاده از
                   تکنیک‌های مختلف نورپردازی، فضاهای داخلی را روشن و جذاب‌تر
                   کنید. از اصول پایه‌ای نورپردازی تا تکنیک‌های پیشرفته برای
@@ -285,7 +285,7 @@ const Modeling = () => {
                   به‌طور مستقیم بر روی راحتی، تمرکز و حتی روحیه افراد تأثیر
                   بگذارد.
                 </p>
-                <ul className="font-IranYekan text-accentDark text-base sm:text-base text-justify direction-rtl list-disc pl-6 mr-10 mt-5">
+                <ul className="font-IranYekan text-accentDark text-sm sm:text-base text-justify direction-rtl list-disc pl-6 mr-10 mt-5">
                   <li>
                     <h3>
                       انواع نورپردازی داخلی و کاربردهای آن نورپردازی عمومی:
@@ -326,7 +326,7 @@ const Modeling = () => {
                 </ul>
               </Accordion>
               <Accordion title="ترکیب نور طبیعی و مصنوعی">
-                <p>
+                <p className="font-IranYekan text-accentDark text-sm sm:text-base text-justify direction-rtl">
                   در این سرفصل، به اصول ترکیب نور طبیعی و مصنوعی می‌پردازیم و
                   یاد می‌گیریم چگونه با بهره‌گیری از این دو منبع نوری، جلوه‌های
                   زیبا و کاربردی در فضاهای مختلف ایجاد کنیم. نور طبیعی و مصنوعی
@@ -336,7 +336,7 @@ const Modeling = () => {
                   امکان می‌دهد تا به تعادل نوری مناسبی برسید و فضایی دلنشین و
                   جذاب بسازید.
                 </p>
-                <ul className="font-IranYekan text-accentDark text-base sm:text-base text-justify direction-rtl list-disc pl-6 mr-10 mt-5">
+                <ul className="font-IranYekan text-accentDark text-sm sm:text-base text-justify direction-rtl list-disc pl-6 mr-10 mt-5">
                   <li>
                     <h3>
                       مزایای نور طبیعی و مصنوعی درک تأثیرات مثبت نور طبیعی بر
@@ -380,20 +380,20 @@ const Modeling = () => {
             </h2>
             <div className="w-full">
               <Accordion title="این دوره مناسب چه افرادی است؟">
-                <p>
+                <p className="font-IranYekan text-accentDark text-sm sm:text-base text-justify direction-rtl">
                   این دوره برای همه کسانی است که علاقه‌مند به یادگیری بازسازی و
                   نوسازی ساختمان هستند؛ از مبتدیان تا حرفه‌ای‌ها.
                 </p>
               </Accordion>
               <Accordion title="چه ابزارها و تجهیزاتی برای شرکت در دوره لازم است؟">
-                <p>
+                <p className="font-IranYekan text-accentDark text-sm sm:text-base text-justify direction-rtl">
                   ما تمامی تجهیزات و ابزارهای لازم را برای جلسات کارگاهی فراهم
                   می‌کنیم، اما توصیه می‌شود که شرکت‌کنندگان تجهیزات شخصی خود را
                   نیز به همراه داشته باشند.
                 </p>
               </Accordion>
               <Accordion title="نحوه ثبت‌نام و شرایط پرداخت">
-                <p>
+                <p className="font-IranYekan text-accentDark text-sm sm:text-base text-justify direction-rtl">
                   ثبت‌نام در دوره جامع بازسازی ساختمان به راحتی از طریق سایت
                   امکان‌پذیر است. شما می‌توانید از گزینه‌های پرداخت اقساطی یا
                   یکجا استفاده کنید. برای کسب اطلاعات بیشتر و ثبت‌نام، با ما
@@ -401,7 +401,7 @@ const Modeling = () => {
                 </p>
               </Accordion>
             </div>
-            <div className="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+            {/* <div className="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
               {books.map((book) => (
                 <BookCard
                   key={book.id}
@@ -410,7 +410,7 @@ const Modeling = () => {
                   description={book.description}
                 />
               ))}
-            </div>
+            </div> */}
           </div>
 
           <div className="flex-col justify-between items-center w-full md:w-[500px] bg-background hidden sm:flex">

@@ -57,21 +57,26 @@ function Navbar() {
     setIsOpen(false);
   };
 
+  const closeMobileMenu = () => {
+    setIsMobileMenuOpen(false);
+    setIsAccordionOpen(false);
+  };
+
   return (
     <nav
-      className={`sticky top-0 z-40 font-IranYekan font-normal text-sm flex items-center justify-between bg-background h-16 p-5 transition-all duration-300 ${
+      className={`sticky top-0 z-20 font-IranYekan font-normal text-sm flex items-center justify-between bg-background h-16 p-5 transition-all duration-300 ${
         isScrolled ? "" : ""
       }`}
     >
       <div className="flex items-center md:hidden">
         <button
           onClick={toggleMobileMenu}
-          className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+          className="inline-flex items-center justify-center  rounded-md text-accent hover:text-whitefocus:outline-none"
         >
           <span className="sr-only">Open main menu</span>
           {!isMobileMenuOpen ? (
             <svg
-              className="block h-6 w-6"
+              className="block h-8 w-8"
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
@@ -87,7 +92,7 @@ function Navbar() {
             </svg>
           ) : (
             <svg
-              className="block h-6 w-6"
+              className="block h-8 w-8"
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
@@ -231,7 +236,7 @@ function Navbar() {
       </ul>
       <div>
         <img
-          className="w-64 sm:w-36 mt-2 object-contain"
+          className="w-64 sm:w-28 mt-2 object-contain"
           src={Logo}
           alt="Logo-Bonzhivar"
         />
@@ -247,7 +252,7 @@ function Navbar() {
       >
         <ul className="flex flex-col items-center py-4">
           <li className="w-full">
-            <Link to="/خانه" className="block px-5 py-2 text-right">
+            <Link to="/خانه" className="block px-5 py-2 text-right" onClick={closeMobileMenu}>
               خانه
             </Link>
           </li>
@@ -276,24 +281,27 @@ function Navbar() {
             >
               <ul className="text-accent text-right px-5 py-2">
                 <li className="py-1 font-IranYekan font-bold text-lg ">
-                  <Link to="/course1">دوره های آموزشی معماری داخلی</Link>
+                  <span onClick={closeMobileMenu}>دوره های آموزشی معماری داخلی</span>
                 </li>
                 <li className="py-1 font-IranYekan font-normal ">
-                  <Link to="/course2">دوره جامع بازسازی ساختمان </Link>
+                  <Link onClick={closeMobileMenu} to="/info/بازسازی-ساختمان">دوره جامع بازسازی ساختمان </Link>
                 </li>
                 <li className="py-1 font-IranYekan font-normal">
-                  <Link to="/course3">مدلسازی و رندرینگ</Link>
+                  <Link onClick={closeMobileMenu} to="/info/مدلسازی-رندرینگ">مدلسازی و رندرینگ</Link>
+                </li>
+                <li className="py-1 font-IranYekan font-normal">
+                  <Link onClick={closeMobileMenu} to="/info/نورپردازی">دوره جامع نورپردازی</Link>
                 </li>
               </ul>
             </div>
           </li>
           <li className="w-full">
-            <Link to="/aboutus" className="block px-5 py-2 text-right">
+            <Link to="/درباره-ما" className="block px-5 py-2 text-right" onClick={closeMobileMenu}>
               درباره ما
             </Link>
           </li>
           <li className="w-full">
-            <Link to="/تماس-با-ما" className="block px-5 py-2 text-right">
+            <Link to="/تماس-با-ما" className="block px-5 py-2 text-right" onClick={closeMobileMenu}>
               تماس با ما
             </Link>
           </li>

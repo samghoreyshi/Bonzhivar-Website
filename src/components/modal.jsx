@@ -22,7 +22,7 @@ const Modal = ({ isOpen, onClose, title, description, imageUrl }) => {
         {/* Close Button */}
         <button
           onClick={onClose}
-          className="self-end text-xl text-gray-600 hover:text-gray-800 focus:outline-none"
+          className="self-end text-3xl text-accent hover:text-gray-800 focus:outline-none"
         >
           &times;
         </button>
@@ -32,15 +32,15 @@ const Modal = ({ isOpen, onClose, title, description, imageUrl }) => {
           <img
             src={imageUrl}
             alt="Modal"
-            className="rounded-lg w-full h-48 object-cover object-center mb-4 mt-4"
+            className="rounded-lg w-full aspect-square object-cover object-center mb-4 mt-4"
           />
         )}
 
         {/* Title */}
-        <h2 className="text-xl font-bold text-accent mb-2 font-IranYekan">{title}</h2>
+        <h2 className="text-xl font-extrabold text-accent mb-2 font-IranYekan">{title}</h2>
 
         {/* Description */}
-        <p className="text-accent mb-4 font-IranYekan font-normal text-justify direction-rtl p-5">{description}</p>
+        <p className="text-accent mb-4 font-IranYekan font-normal text-justify direction-rtl p-5 text-sm">{description}</p>
       </div>
     </dialog>
   );

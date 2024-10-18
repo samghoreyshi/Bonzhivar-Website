@@ -14,7 +14,7 @@ const CourseCard = ({
   tag5,
 }) => {
   return (
-    <div className=" flex flex-col gap-5 p-10 sm:p-5  sm:visible">
+    <div className=" flex flex-col gap-5 p-5 sm:p-5  sm:visible">
       <div className="sticky flex flex-col gap-2 justify-center items-center top-64 w-full h-[450px] text-sm  border  p-2 border-accent/50 rounded-lg overflow-hidden">
         <div className="flex flex-col justify-between items-center w-full h-full">
           <div className="flex justify-between items-center w-full h-full">

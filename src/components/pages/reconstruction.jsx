@@ -55,7 +55,7 @@ const Modeling = () => {
         <div className="w-full h-[400px] bg-[url(/reconstruction/banner.webp)] bg-cover bg-bottom bg-no-repeat"></div>
         <div className="flex flex-col md:flex-row justify-between items-stretch w-full  border-accentDark bg-background">
           <div className="flex h-full flex-col gap-10 items-end w-full p-10 border-r border-gray-300">
-            <div className="w-full flex justify-between items-center font-IranYekan text-right font-bold text-accent  text-2xl sm:text-4xl">
+            <div className="w-full flex justify-between items-center font-IranYekan text-right font-extrabold text-accent  text-2xl sm:text-4xl">
               <div className="rotate-45">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -69,7 +69,7 @@ const Modeling = () => {
               </div>
               <h1 className="">دوره جامع بازسازی ساختمان</h1>
             </div>
-            <p className="font-IranYekan text-accentDark text-base sm:text-base text-justify direction-rtl leading-relaxed">
+            <p className="font-IranYekan text-accentDark text-sm sm:text-base text-justify direction-rtl leading-relaxed">
               این دوره جامع بازسازی ساختمان به‌طور ویژه برای کسانی طراحی شده است
               که می‌خواهند از اصول اولیه بازسازی ساختمان تا مهارت‌های پیشرفته
               نوسازی را فرا بگیرند. در این دوره، تمامی تکنیک‌های ضروری و به‌روز
@@ -104,7 +104,7 @@ const Modeling = () => {
             <h2 className="font-IranYekan text-right font-bold text-accent text-2xl sm:text-4xl">
               چرا دوره بازسازی ساختمان؟
             </h2>
-            <p className="font-IranYekan text-accentDark text-base sm:text-base text-justify direction-rtl">
+            <p className="font-IranYekan text-accentDark text-sm sm:text-base text-justify direction-rtl">
               بازسازی ساختمان یک مهارت ارزشمند است که نه تنها به افزایش کیفیت
               زندگی کمک می‌کند، بلکه فرصتی عالی برای کسب درآمد بالا به عنوان یک
               شغل پردرآمد فراهم می‌آورد. در دوره جامع بازسازی ساختمان، شما تمامی
@@ -130,11 +130,11 @@ const Modeling = () => {
             <h2 className="font-IranYekan text-right font-bold text-accent  text-2xl sm:text-4xl">
               این دوره شامل چه مباحثی است؟
             </h2>
-            <p className="font-IranYekan text-accentDark text-base sm:text-base text-justify direction-rtl">
+            <p className="font-IranYekan text-accentDark text-sm sm:text-base text-justify direction-rtl">
               در این دوره، شما با تمامی مراحل و فرآیندهای بازسازی ساختمان آشنا
               خواهید شد:
             </p>
-            <ul className="font-IranYekan text-accentDark text-base sm:text-base text-justify direction-rtl list-disc pl-6 mr-10">
+            <ul className="font-IranYekan text-accentDark text-sm sm:text-base text-justify direction-rtl list-disc pl-6 mr-10">
               <li className="mb-2">
                 <h3>
                   شناخت ساختمان و عیب‌یابی : یادگیری نحوه تحلیل و بررسی
@@ -185,7 +185,7 @@ const Modeling = () => {
             <h2 className="font-IranYekan text-right font-bold text-accent  text-2xl sm:text-4xl">
               مزایای شرکت در دوره بازسازی ساختمان
             </h2>
-            <ul className="font-IranYekan text-accentDark text-base sm:text-base text-justify direction-rtl list-disc pl-6 mr-10">
+            <ul className="font-IranYekan text-accentDark text-sm sm:text-base text-justify direction-rtl list-disc pl-6 mr-10">
               <li className="mb-2">
                 <h3>
                   کسب مهارت‌های عملی و کاربردی: با تمرینات عملی و کارگاهی، شما
@@ -224,7 +224,7 @@ const Modeling = () => {
                   اهمیت آن در ارتقاء کیفیت زندگی و حفظ ارزش ساختمان آشنا
                   می‌شوید.
                 </p>
-                <ul className="font-IranYekan text-accentDark text-base sm:text-base text-justify direction-rtl list-disc pl-6 mr-10 mt-5">
+                <ul className="font-IranYekan text-accentDark text-sm sm:text-base text-justify direction-rtl list-disc pl-6 mr-10 mt-5">
                   <li>
                     <h3>
                       مبانی بازسازی و انواع بازسازی : معرفی انواع بازسازی مانند
@@ -246,7 +246,7 @@ const Modeling = () => {
                   شناخت عیوب و نیازهای ساختمان، از مراحل مهم بازسازی است که در
                   این بخش به آن پرداخته می‌شود.
                 </p>
-                <ul className="font-IranYekan text-accentDark text-base sm:text-base text-justify direction-rtl list-disc pl-6 mr-10 mt-5">
+                <ul className="font-IranYekan text-accentDark text-sm sm:text-base text-justify direction-rtl list-disc pl-6 mr-10 mt-5">
                   <li>
                     <h3>
                       آشنایی با سیستم‌های ساختمانی : بررسی سیستم‌های مختلف
@@ -272,7 +272,7 @@ const Modeling = () => {
                   شناخت عیوب و نیازهای ساختمان، از مراحل مهم بازسازی است که در
                   این بخش به آن پرداخته می‌شود.
                 </p>
-                <ul className="font-IranYekan text-accentDark text-base sm:text-base text-justify direction-rtl list-disc pl-6 mr-10 mt-5">
+                <ul className="font-IranYekan text-accentDark text-sm sm:text-base text-justify direction-rtl list-disc pl-6 mr-10 mt-5">
                   <li>
                     <h3>
                       آشنایی با سیستم‌های ساختمانی : بررسی سیستم‌های مختلف
@@ -298,7 +298,7 @@ const Modeling = () => {
                   در این بخش، نحوه انتخاب بهترین مواد و متریال‌ها برای پروژه‌های
                   بازسازی را یاد می‌گیرید.
                 </p>
-                <ul className="font-IranYekan text-accentDark text-base sm:text-base text-justify direction-rtl list-disc pl-6 mr-10 mt-5">
+                <ul className="font-IranYekan text-accentDark text-sm sm:text-base text-justify direction-rtl list-disc pl-6 mr-10 mt-5">
                   <li>
                     <h3>
                       آشنایی با متریال‌های مدرن : معرفی متریال‌های جدید و مقاوم
@@ -324,7 +324,7 @@ const Modeling = () => {
                   نوسازی تأسیسات و سیستم‌های ساختمان از مهم‌ترین بخش‌های بازسازی
                   به شمار می‌رود.
                 </p>
-                <ul className="font-IranYekan text-accentDark text-base sm:text-base text-justify direction-rtl list-disc pl-6 mr-10 mt-5">
+                <ul className="font-IranYekan text-accentDark text-sm sm:text-base text-justify direction-rtl list-disc pl-6 mr-10 mt-5">
                   <li>
                     <h3>
                       تجهیزات و سیستم‌های الکتریکی : آموزش نصب و ارتقاء
@@ -372,7 +372,7 @@ const Modeling = () => {
                 </p>
               </Accordion>
             </div>
-            <div className="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+            {/* <div className="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
               {books.map((book) => (
                 <BookCard
                   key={book.id}
@@ -381,7 +381,7 @@ const Modeling = () => {
                   description={book.description}
                 />
               ))}
-            </div>
+            </div> */}
           </div>
 
           <div className=" flex-col justify-between items-center w-full md:w-[500px] bg-background hidden sm:flex">

@@ -19,7 +19,7 @@ function App() {
           path="/"
           element={
             <>
-              <Preloader />
+              {/* <Preloader /> */}
               <Hero />
             </>
           }

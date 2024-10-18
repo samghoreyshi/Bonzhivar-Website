@@ -55,10 +55,10 @@ const Modeling = () => {
         />
       </Helmet>
       <section className="w-full h-full bg-blue-100">
-        <div className="w-full h-[400px] bg-[url(/Modeling/5.webp)] bg-cover bg-center bg-no-repeat"></div>
+        <div className="w-full h-[200px] sm:h-[400px] bg-[url(/Modeling/5.webp)] bg-cover bg-center bg-no-repeat"></div>
         <div className="flex flex-col md:flex-row justify-between items-stretch w-full  border-accentDark bg-background">
-          <div className="flex h-full flex-col gap-10 items-end w-full p-10 border-r border-gray-300">
-            <div className="w-full flex justify-between items-center font-IranYekan text-right font-bold text-accent  text-2xl sm:text-4xl">
+          <div className="flex h-full flex-col gap-10 items-end w-full p-5 border-r border-gray-300">
+            <div className="w-full flex justify-between  items-end font-IranYekan  text-right font-extrabold text-accent text-2xl sm:text-4xl">
               <div className="rotate-45">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -72,7 +72,7 @@ const Modeling = () => {
               </div>
               <h1 className="">دوره جامع مدلسازی و رندرینگ</h1>
             </div>
-            <p className="font-IranYekan text-accentDark text-base sm:text-base text-justify direction-rtl leading-relaxed">
+            <p className="font-IranYekan text-accentDark text-sm sm:text-base text-right direction-rtl leading-relaxed">
               دوره آموزشی مدلسازی و رندرینگ ما یک دوره جامع و حرفه‌ای است که به
               شما کمک می‌کند تا به سطحی از مهارت و دانش دست یابید که بتوانید
               پروژه‌های حرفه‌ای را به بهترین شکل اجرا کنید. این دوره تمامی
@@ -98,7 +98,7 @@ const Modeling = () => {
             <h2 className="font-IranYekan text-right font-bold text-accent text-2xl sm:text-4xl">
               چرا دوره مدلسازی و رندرینگ؟
             </h2>
-            <p className="font-IranYekan text-accentDark text-base sm:text-base text-justify direction-rtl">
+            <p className="font-IranYekan text-accentDark text-sm sm:text-base text-justify direction-rtl">
               چرا این دوره؟ با پیشرفت فناوری و نیاز روزافزون به طراحی‌های
               سه‌بعدی در صنعت معماری، طراحی داخلی، بازی‌سازی و تبلیغات، یادگیری
               مدلسازی و رندرینگ یکی از مهارت‌های بسیار پرتقاضا و ارزشمند است.
@@ -120,7 +120,7 @@ const Modeling = () => {
             <h2 className="font-IranYekan text-right font-bold text-accent  text-2xl sm:text-4xl">
               این دوره شامل چه مباحثی است؟
             </h2>
-            <p className="font-IranYekan text-accentDark text-base sm:text-base text-justify direction-rtl">
+            <p className="font-IranYekan text-accentDark text-sm sm:text-base text-justify direction-rtl">
               دوره جامع مدلسازی و رندرینگ با هدف آموزش تمامی مهارت‌های لازم برای
               تبدیل شدن به یک طراح و مدلساز حرفه‌ای تدوین شده است. این دوره از
               سطح مبتدی شروع می‌شود و تا سطح پیشرفته پیش می‌رود. مباحث آموزشی
@@ -144,7 +144,7 @@ const Modeling = () => {
                 />
               </div>
             </div>
-            <ul className="font-IranYekan text-accentDark text-base sm:text-base text-justify direction-rtl list-disc pl-6 mr-10">
+            <ul className="font-IranYekan text-accentDark text-sm sm:text-base text-justify direction-rtl list-disc pl-6 mr-10">
               <li className="mb-2">
                 <img
                   className="mb-5"
@@ -152,7 +152,7 @@ const Modeling = () => {
                   alt="آموزش AutoCAD"
                 />
                 <h3 className="text-xl font-bold">آموزش AutoCAD</h3>
-                <p>
+                <p className="">
                   این بخش از دوره به آموزش اصولی و پایه‌ای نرم‌افزار AutoCAD
                   اختصاص دارد که به عنوان یکی از محبوب‌ترین نرم‌افزارهای طراحی
                   دو و سه‌بعدی شناخته می‌شود.
@@ -252,7 +252,7 @@ const Modeling = () => {
             <h2 className="font-IranYekan text-right font-bold text-accent  text-2xl sm:text-4xl">
               مزایای شرکت در دوره جامع مدلسازی و رندرینگ
             </h2>
-            <ul className="font-IranYekan text-accentDark text-base sm:text-base text-justify direction-rtl list-disc pl-6 mr-10">
+            <ul className="font-IranYekan text-accentDark text-sm sm:text-base text-justify direction-rtl list-disc pl-6 mr-10">
               <li className="mb-2">
                 <h3>
                   آموزش توسط اساتید مجرب: دوره ما توسط اساتید حرفه‌ای و متخصص در
@@ -282,7 +282,7 @@ const Modeling = () => {
             <div className="w-full">
               <Accordion title="AutoCAD">
                 <p>آموزش اتوکد</p>
-                <ul className="font-IranYekan text-accentDark text-base sm:text-base text-justify direction-rtl list-disc pl-6 mr-10 mt-5">
+                <ul className="font-IranYekan text-accentDark text-base sm:text-base text-right direction-rtl list-disc pl-6 mr-10 mt-5">
                   <li>
                     <h3>
                       مقدمه‌ای بر AutoCAD: آشنایی با محیط کاربری و ابزارهای اصلی
@@ -310,7 +310,7 @@ const Modeling = () => {
               </Accordion>
               <Accordion title="3ds Max">
                 <p>آموزش 3ds Max</p>
-                <ul className="font-IranYekan text-accentDark text-base sm:text-base text-justify direction-rtl list-disc pl-6 mr-10 mt-5">
+                <ul className="font-IranYekan text-accentDark text-base sm:text-base text-right direction-rtl list-disc pl-6 mr-10 mt-5">
                   <li>
                     <h3>
                       مدلسازی سه‌بعدی: آشنایی با مفاهیم مدلسازی 3D و ایجاد اشکال
@@ -339,7 +339,7 @@ const Modeling = () => {
               </Accordion>
               <Accordion title="V-Ray">
                 <p>آموزش V-ray</p>
-                <ul className="font-IranYekan text-accentDark text-base sm:text-base text-justify direction-rtl list-disc pl-6 mr-10 mt-5">
+                <ul className="font-IranYekan text-accentDark text-base sm:text-base text-right direction-rtl list-disc pl-6 mr-10 mt-5">
                   <li>
                     <h3>
                       رندرینگ حرفه‌ای: آشنایی با مفاهیم رندرینگ و تنظیمات پایه و
@@ -368,7 +368,7 @@ const Modeling = () => {
               </Accordion>
               <Accordion title="Photoshop">
                 <p>آموزش Photoshop</p>
-                <ul className="font-IranYekan text-accentDark text-base sm:text-base text-justify direction-rtl list-disc pl-6 mr-10 mt-5">
+                <ul className="font-IranYekan text-accentDark text-base sm:text-base text-right direction-rtl list-disc pl-6 mr-10 mt-5">
                   <li>
                     <h3>
                       پست‌پروداکشن: ویرایش و بهبود تصاویر رندر شده با استفاده از
@@ -429,7 +429,7 @@ const Modeling = () => {
                 </p>
               </Accordion>
             </div>
-            <div className="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+            {/* <div className="w-full h-[500px] sm:flex grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
               {books.map((book) => (
                 <BookCard
                   key={book.id}
@@ -438,7 +438,7 @@ const Modeling = () => {
                   description={book.description}
                 />
               ))}
-            </div>
+            </div> */}
           </div>
 
           <div className=" flex-col justify-between items-center w-full md:w-[500px] bg-background hidden sm:flex">
