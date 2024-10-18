@@ -27,7 +27,7 @@ function Contact() {
 
       <section className="bg-background">
         {/* Container */}
-        <div className="mx-auto max-w-7xl px-5 py-16 text-center md:px-10 md:py-20">
+        <div className="mx-auto max-w-3xl px-5 py-16 text-center md:px-10 md:py-20">
           {/* Component */}
           <h2 className="text-3xl font-extrabold md:text-5xl font-IranYekan text-accent">
             سوالی دارید؟
