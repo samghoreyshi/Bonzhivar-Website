@@ -259,6 +259,7 @@ function Hero() {
                   alt=""
                   class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out"
                 />
+                {/* overlay */}
                 <div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
                 <h3 class="z-10 text-lg font-bold text-accentLight absolute top-0 right-0 p-2 xs:text-xl md:text-xl font-IranYekan text-right direction-rtl bg-accentDark/30 backdrop-blur-lg rounded-lg m-2">
                   دوره جامع نور پردازی
