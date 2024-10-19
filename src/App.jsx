@@ -9,11 +9,13 @@ import Lighting from "./components/pages/lighting";
 import UnderConstruction from "./components/pages/underconstruction";
 import Contact from "./components/pages/contact";
 import Preloader from "./components/preloader";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <>
       <Navbar />
+      <ScrollToTop />
       <Routes>
         <Route
           path="/"
