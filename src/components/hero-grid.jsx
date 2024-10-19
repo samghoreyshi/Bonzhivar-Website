@@ -259,6 +259,7 @@ function Hero() {
                   alt=""
                   class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out"
                 />
+                {/* overlay */}
                 <div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
                 <h3 class="z-10 text-lg font-bold text-accentLight absolute top-0 right-0 p-2 xs:text-xl md:text-xl font-IranYekan text-right direction-rtl bg-accentDark/30 backdrop-blur-lg rounded-lg m-2">
                   دوره جامع نور پردازی
@@ -357,7 +358,7 @@ function Hero() {
       <section className="bg-background">
         <div className="mx-auto w-full px-4 py-8 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
-            <div className="bg-accent rounded-lg p-8 md:p-12 lg:px-16 lg:py-24 flex items-end bg-[url(Hero-images/banner-2.webp)] bg-center bg-cover">
+            <div className="bg-accent rounded-lg p-8 md:p-12 lg:px-16 lg:py-24 flex items-end bg-[url(/Hero-images/banner-2.webp)] bg-center bg-cover">
               <div className="flex flex-col gap-2 items-center justify-center mx-auto max-w-xl text-center bg-accentDark/50 backdrop-blur-md rounded-lg m-2 p-4">
                 <h2 className="text-xl font-extrabold text-accentLight md:text-3xl text-right direction-rtl font-IranYekan">
                   یک شروع سریع داشته باش!
