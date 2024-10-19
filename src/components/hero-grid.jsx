@@ -357,7 +357,7 @@ function Hero() {
       <section className="bg-background">
         <div className="mx-auto w-full px-4 py-8 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
-            <div className="bg-accent rounded-lg p-8 md:p-12 lg:px-16 lg:py-24 flex items-end bg-[url(Hero-images/banner-2.webp)] bg-center bg-cover">
+            <div className="bg-accent rounded-lg p-8 md:p-12 lg:px-16 lg:py-24 flex items-end bg-[url(/Hero-images/banner-2.webp)] bg-center bg-cover">
               <div className="flex flex-col gap-2 items-center justify-center mx-auto max-w-xl text-center bg-accentDark/50 backdrop-blur-md rounded-lg m-2 p-4">
                 <h2 className="text-xl font-extrabold text-accentLight md:text-3xl text-right direction-rtl font-IranYekan">
                   یک شروع سریع داشته باش!
