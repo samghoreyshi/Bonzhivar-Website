@@ -5,7 +5,7 @@ import AudioPlayer from "../audioplayer";
 import BookCard from "../bookcard";
 import Footer from "../footer";
 import CourseCard from "../coursecard";
-import CTA from "../cta"
+import CTA from "../cta";
 import SlidingCard from "../slideup";
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
@@ -339,8 +339,8 @@ const Modeling = () => {
                   </li>
                   <li>
                     <h3>
-                      تأسیسات آب و فاضلاب : آشنایی با اصول لوله‌کشی و
-                      سیستم‌های فاضلاب.
+                      تأسیسات آب و فاضلاب : آشنایی با اصول لوله‌کشی و سیستم‌های
+                      فاضلاب.
                     </h3>
                   </li>
                 </ul>
@@ -387,12 +387,12 @@ const Modeling = () => {
           <div className=" flex-col justify-between items-center w-full md:w-[500px] bg-background hidden sm:flex">
             <div className="sticky top-64 w-full">
               <CourseCard
-                prof="مهندس راد"
+                prof="مهندس نوید سکاکی، مهندس محمد‌رضا حاتمی، مهندس جهانبخش راد"
                 type="حضوری"
                 pre="ندارد"
-                date="۱۲ آبان ۱٤۰۳"
-                time="پنج شــــــــنبه ها ۱۰ - ۱۷"
-                price=" ۱۰،۸۰۰،۰۰۰ تومان"
+                date="۱۷ آبان ۱۴۰۳"
+                time="پنج‌شنبه ها ۹ - ۱۶"
+                price="۱۰،٥۰۰،۰۰۰ تومان"
                 tag1="تعمیرات ساختمان"
                 tag2="بازسازی ساختمان"
                 tag3=" آموزش نوسازی ساختمان"
@@ -405,12 +405,12 @@ const Modeling = () => {
       </section>
       <SlidingCard>
         <CourseCard
-          prof="مهندس راد"
+          prof="مهندس نوید سکاکی، مهندس محمد‌رضا حاتمی، مهندس جهانبخش راد"
           type="حضوری"
           pre="ندارد"
-          date="درحال برنامه‌ریزی"
-          time="نامعلوم"
-          price=" ۱۰،۸۰۰،۰۰۰ تومان"
+          date="۱۷ آبان ۱۴۰۳"
+          time="پنج‌شنبه ها ۹ - ۱۶"
+          price="۱۰،٥۰۰،۰۰۰ تومان"
           tag1="تعمیرات ساختمان"
           tag2="بازسازی ساختمان"
           tag3=" آموزش نوسازی ساختمان"

@@ -444,17 +444,17 @@ const Modeling = () => {
           <div className=" flex-col justify-between items-center w-full md:w-[500px] bg-background hidden sm:flex">
             <div className="sticky top-64 w-full">
               <CourseCard
-                prof="مهندس راد"
+                prof="مهندس نوید سکاکی"
                 type="حضوری"
                 pre="ندارد"
-                date="۱۲ آبان ۱٤۰۳"
-                time="پنج شــــــــنبه ها ۱۰ - ۱۷"
-                price=" ۱۰،۸۰۰،۰۰۰ تومان"
-                tag1="آموزش اتوکد"
-                tag2="مدلسازی سه بعدی"
-                tag3="پکیج نرم‌افزار"
-                tag4="رندرینگ"
-                tag5="آموزش تخصصی و حرفه‌ای"
+                date="۱۴ آبان ۱۴۰۳"
+                time="دوشنبه ها ۹ - ۱۴"
+                price="۱٥،۰۰۰،۰۰۰ تومان"
+                tag1="اتوکد"
+                tag2="3ds Max"
+                tag3="V-Ray"
+                tag4="Photoshop"
+                tag5="پکیج نرم‌افزار"
               />
             </div>
           </div>
@@ -462,17 +462,17 @@ const Modeling = () => {
       </section>
       <SlidingCard>
         <CourseCard
-          prof="مهندس راد"
+          prof="مهندس نوید سکاکی"
           type="حضوری"
           pre="ندارد"
-          date="درحال برنامه‌ریزی"
-          time="نامعلوم"
-          price=" ۱۰،۸۰۰،۰۰۰ تومان"
-          tag1="تعمیرات ساختمان"
-          tag2="بازسازی ساختمان"
-          tag3=" آموزش نوسازی ساختمان"
-          tag4="نقشه کشی تاسیسات"
-          tag5="آموزش تخصصی و حرفه‌ای"
+          date="۱۴ آبان ۱۴۰۳"
+          time="دوشنبه ها ۹ - ۱۴"
+          price="۱٥،۰۰۰،۰۰۰ تومان"
+          tag1="اتوکد"
+          tag2="3ds Max"
+          tag3="V-Ray"
+          tag4="Photoshop"
+          tag5="پکیج نرم‌افزار"
         />
       </SlidingCard>
       <Footer />

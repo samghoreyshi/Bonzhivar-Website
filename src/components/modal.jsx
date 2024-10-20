@@ -15,7 +15,7 @@ const Modal = ({ isOpen, onClose, title, description, imageUrl }) => {
   return (
     <dialog
       ref={dialogRef}
-      className="backdrop:bg-black backdrop:bg-opacity-50 backdrop-blur-sm rounded-3xl w-11/12 md:w-1/3 p-6 bg-background border-2 border-accent"
+      className="backdrop:bg-black backdrop:bg-opacity-50 backdrop-blur-sm rounded-3xl w-11/12 md:w-1/3 p-5 bg-background border-2 border-accent"
       onClose={onClose}
     >
       <div className="flex flex-col items-center">
@@ -32,7 +32,7 @@ const Modal = ({ isOpen, onClose, title, description, imageUrl }) => {
           <img
             src={imageUrl}
             alt="Modal"
-            className="rounded-lg w-full aspect-square object-cover object-center mb-4 mt-4"
+            className="rounded-lg w-full h-[300px] object-cover object-center mb-4 mt-4"
           />
         )}
 
@@ -40,7 +40,7 @@ const Modal = ({ isOpen, onClose, title, description, imageUrl }) => {
         <h2 className="text-xl font-extrabold text-accent mb-2 font-IranYekan">{title}</h2>
 
         {/* Description */}
-        <p className="text-accent mb-4 font-IranYekan font-normal text-justify direction-rtl p-5 text-sm">{description}</p>
+        <p className="text-accent mb-4 font-IranYekan font-normal text-justify direction-rtl p-6 text-sm">{description}</p>
       </div>
     </dialog>
   );

@@ -17,9 +17,9 @@ const CourseCard = ({
     <div className=" flex flex-col gap-5 p-5 sm:p-5  sm:visible">
       <div className="sticky flex flex-col gap-2 justify-center items-center top-64 w-full h-[450px] text-sm  border  p-2 border-accent/50 rounded-lg overflow-hidden">
         <div className="flex flex-col justify-between items-center w-full h-full">
-          <div className="flex justify-between items-center w-full h-full">
-            <span className="w-[80px] h-[80px] bg-[url(/Backgrounds/Prof.webp)] bg-center bg-cover bg-no-repeat rounded-lg"></span>
-            <span className="font-IranYekan font-bold text-accent">
+          <div className="flex justify-end items-center w-full h-full">
+            {/* <span className="w-[80px] h-[80px] bg-[url(/Backgrounds/Prof.webp)] bg-center bg-cover bg-no-repeat rounded-lg"></span> */}
+            <span className="font-IranYekan font-bold text-accent text-right direction-rtl my-5">
               استاد دوره : {prof}
             </span>
           </div>

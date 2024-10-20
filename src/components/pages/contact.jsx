@@ -9,7 +9,7 @@ function Contact() {
   return (
     <>
       <header>
-        <div className="bg-cover bg-center bg-no-repeat bg-[url('/Contact/1.png')]">
+        <div className="bg-cover bg-center bg-no-repeat bg-[url('/Contact/1.webp')]">
           {/* Container */}
           <div className=" w-full py-8 px-5 md:px-10 md:py-16 lg:py-20">
             {/* Component */}

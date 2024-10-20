@@ -197,7 +197,7 @@ function Hero() {
                   alt=""
                   class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out"
                 />
-                <div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
+                <div class="absolute inset-0 bg-gradient-to-b from-gray-500/25 to-gray-500/5"></div>
                 <h3 class="z-10 text-lg font-bold text-accentLight absolute top-0 right-0 p-2 xs:text-xl md:text-xl font-IranYekan text-right direction-rtl bg-accentDark/30 backdrop-blur-lg rounded-lg m-2">
                   دوره جامع بازسازی ساختمان
                 </h3>
@@ -238,13 +238,13 @@ function Hero() {
                   class="cursor-pointer group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40"
                 >
                   <img
-                    src="/Hero-images/Bot-special-2.webp"
+                    src="/Undercn/1.webp"
                     alt=""
                     class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out"
                   />
                   <div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
                   <h3 class="z-10 text-xl font-bold text-accentLight absolute top-0 right-0 p-2 xs:text-xl md:text-xl font-IranYekan text-right direction-rtl bg-accentDark/30 backdrop-blur-lg rounded-lg m-2">
-                    مسیری نو...
+                    اطلاعیه
                   </h3>
                 </div>
               </div>
@@ -405,9 +405,9 @@ function Hero() {
       <Modal
         isOpen={isModalOpen}
         onClose={closeModal}
-        title="مجتمع آموزشی بن‌ژیوار"
-        description="مجتمع آموزشی بن‌ژیوار از سال ۱۳۸۷ فعالیت خود را با هدف ارتقای مهارت‌های کاربردی و آماده‌سازی فراگیران برای ورود به بازار کار آغاز کرده است. این مجتمع با ارائه دوره‌های متنوعی در حوزه‌های مختلف، از جمله معماری داخلی، طراحی، مدیریت کسب‌وکار و مهارت‌های کافی‌شاپ، به یکی از مراکز آموزشی پیشرو در زمینه مهارت‌آموزی تبدیل شده است. علاوه بر این، بن‌ژیوار در سال‌های گذشته موفق به کسب جوایز مختلفی نظیر آموزشگاه برتر کشور و کارآفرین برتر شده است که گواهی بر کیفیت و اهمیت فعالیت‌های آن است"
-        imageUrl="/Hero-images/Bot-special-2.webp"
+        title="وبسایت بن‌ژیوار"
+        description="وبسایت بن‌ژیوار در حال توسعه است برخی صفحات وبسایت در حال ساخت هستند و بعضی قابلیت های وبسایت ممکن است با اختلال مواجه شود تا توسعه کامل وبسایت از صبر و شکیبایی شما متشکریم"
+        imageUrl="/Undercn/1.webp"
       />
     </>
   );

@@ -69,7 +69,9 @@ const Modeling = () => {
                   <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
                 </svg>
               </div>
-              <h1 className="font-IranYekan font-extrabold ">دوره جامع نورپردازی</h1>
+              <h1 className="font-IranYekan font-extrabold ">
+                دوره جامع نورپردازی
+              </h1>
             </div>
             <p className="font-IranYekan text-accentDark text-sm sm:text-base text-justify direction-rtl leading-relaxed">
               این دوره جامع، به شما اصول و تکنیک‌های کاربردی نورپردازی را
@@ -416,17 +418,17 @@ const Modeling = () => {
           <div className="flex-col justify-between items-center w-full md:w-[500px] bg-background hidden sm:flex">
             <div className="sticky top-64 w-full invisible sm:visible">
               <CourseCard
-                prof="مهندس راد"
+                prof="نامعلوم"
                 type="حضوری"
                 pre="ندارد"
                 date="درحال برنامه‌ریزی"
                 time="نامعلوم"
-                price=" ۱۰،۸۰۰،۰۰۰ تومان"
-                tag1="تعمیرات ساختمان"
-                tag2="بازسازی ساختمان"
-                tag3=" آموزش نوسازی ساختمان"
-                tag4="نقشه کشی تاسیسات"
-                tag5="آموزش تخصصی و حرفه‌ای"
+                price="نامعلوم"
+                tag1="نورپردازی داخلی"
+                tag2="تکنیک‌های نورپردازی"
+                tag3="نورپردازی خارجی"
+                tag4="فیزیک نور"
+                tag5="تجهیزات نورپردازی"
               />
             </div>
           </div>
@@ -434,17 +436,17 @@ const Modeling = () => {
       </section>
       <SlidingCard>
         <CourseCard
-          prof="مهندس راد"
+          prof="نامعلوم"
           type="حضوری"
           pre="ندارد"
           date="درحال برنامه‌ریزی"
           time="نامعلوم"
-          price=" ۱۰،۸۰۰،۰۰۰ تومان"
-          tag1="تعمیرات ساختمان"
-          tag2="بازسازی ساختمان"
-          tag3=" آموزش نوسازی ساختمان"
-          tag4="نقشه کشی تاسیسات"
-          tag5="آموزش تخصصی و حرفه‌ای"
+          price="نامعلوم"
+          tag1="نورپردازی داخلی"
+          tag2="تکنیک‌های نورپردازی"
+          tag3="نورپردازی خارجی"
+          tag4="فیزیک نور"
+          tag5="تجهیزات نورپردازی"
         />
       </SlidingCard>
       <Footer />
