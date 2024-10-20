@@ -35,6 +35,11 @@ function Hero() {
   const openModal = () => setIsModalOpen(true);
   const closeModal = () => setIsModalOpen(false);
 
+  const handleRedirect = () => {
+    
+    window.open("https://docs.google.com/forms/d/e/1FAIpQLSewvPyLp8zwuTs0WRg_OT-jOUPeI0XAdlHnrO4TBQm5h7xoNA/viewform", "_blank");
+  };
+
   return (
     <>
       <Helmet>
@@ -374,12 +379,12 @@ function Hero() {
                 </p>
 
                 <div className="mt-4 md:mt-2">
-                  <a
-                    href="#"
-                    className="inline-block rounded-lg border border-accentlight px-5 py-3 text-sm text-accentLight transition hover:bg-transparen text-right font-IranYekan direction-rtl font-bold"
+                  <div
+                    onClick={handleRedirect}
+                    className="cursor-pointer inline-block rounded-lg border border-accentlight px-5 py-3 text-sm text-accentLight transition hover:bg-transparen text-right font-IranYekan direction-rtl font-bold"
                   >
                     همین الان ثبت نام کن!
-                  </a>
+                  </div>
                 </div>
               </div>
             </div>

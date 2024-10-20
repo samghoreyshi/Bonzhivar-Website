@@ -13,6 +13,10 @@ const CourseCard = ({
   tag4,
   tag5,
 }) => {
+  const handleRedirect = () => {
+    
+    window.open("https://docs.google.com/forms/d/e/1FAIpQLSewvPyLp8zwuTs0WRg_OT-jOUPeI0XAdlHnrO4TBQm5h7xoNA/viewform", "_blank");
+  };
   return (
     <div className=" flex flex-col gap-5 p-5 sm:p-5  sm:visible">
       <div className="sticky flex flex-col gap-2 justify-center items-center top-64 w-full h-[450px] text-sm  border  p-2 border-accent/50 rounded-lg overflow-hidden">
@@ -93,7 +97,10 @@ const CourseCard = ({
           <div className=" my-2 font-IranYekan text-orange-700 font-bold flex items-center justify-center w-full h-full bg-orange-100 border border-orange-500 border-dashed rounded-lg">
             هزینه دوره: {price}
           </div>
-          <div className=" my-2 font-IranYekan text-accentLight font-bold flex items-center justify-center w-full h-full bg-accent hover:bg-background hover:text-accent border border-accent transition all duration-300 rounded-lg cursor-pointer">
+          <div
+            onClick={handleRedirect}
+            className=" my-2 font-IranYekan text-accentLight font-bold flex items-center justify-center w-full h-full bg-accent hover:bg-background hover:text-accent border border-accent transition all duration-300 rounded-lg cursor-pointer"
+          >
             ثبت نام
           </div>
           <div className=" text-[10px] my-2 font-IranYekan  text-gray-500 font-normal flex flex-wrap gap-2 items-start justify-end w-full h-full">

@@ -54,7 +54,7 @@ const Modeling = () => {
         />
       </Helmet>
       <section className="w-full h-full bg-blue-100">
-        <div className="w-full h-[400px] bg-[url(/Lighting/banner.webp)] bg-cover bg-bottom bg-no-repeat"></div>
+        <div className="w-full h-[200px] sm:h-[400px]  bg-[url(/Lighting/banner.webp)] bg-cover bg-bottom bg-no-repeat"></div>
         <div className="flex flex-col md:flex-row justify-between items-stretch w-full  border-accentDark bg-background">
           <div className="flex h-full flex-col gap-10 items-end w-full p-10 border-r border-gray-300">
             <div className="w-full flex justify-between items-center font-IranYekan text-right font-bold text-accent  text-2xl sm:text-4xl">
