@@ -50,16 +50,29 @@ function Hero() {
           name="description"
           content="مجتمع آموزشی بن‌ژیوار با هدف توسعه مهارت‌های کاربردی و آماده‌سازی حرفه‌ای افراد برای ورود به بازار کار، دوره‌های متنوعی را در حوزه‌هایی همچون معماری داخلی، طراحی، مدیریت کسب‌وکار و مهارت‌های کافی‌شاپ ارائه می‌دهد."
         />
-        <meta property="og:title" content="خانه | مجتمع آموزشی بن‌ژیوار" />
-        <meta
-          property="og:description"
-          content="مجتمع آموزشی بن‌ژیوار با هدف توسعه مهارت‌های کاربردی و آماده‌سازی حرفه‌ای افراد برای ورود به بازار کار، دوره‌های متنوعی را در حوزه‌هایی همچون معماری داخلی، طراحی، مدیریت کسب‌وکار و مهارت‌های کافی‌شاپ ارائه می‌دهد."
-        />
-        <meta
-          property="og:image"
-          content="https://bonzhivar.com/Home-images/Aboutus-facade-Sepia.webp"
-        />
         <meta property="og:url" content="https://bonzhivar.com" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="مجتمع آموزشی بن‌ژیوار" />
+          <meta
+            property="og:description"
+            content="مجتمع آموزشی بن‌ژیوار با هدف توسعه مهارت‌های کاربردی و آماده‌سازی حرفه‌ای افراد برای ورود به بازار کار، دوره‌های متنوعی را در حوزه‌هایی همچون معماری داخلی، طراحی، مدیریت کسب‌وکار و مهارت‌های کافی‌شاپ ارائه می‌دهد."
+          />
+          <meta
+            property="og:image"
+            content="https://opengraph.b-cdn.net/production/images/1d08c316-0776-456b-95a3-566294eecc64.jpg?token=jsJaBVyHeAHMIs9mapyXlO8PVrSTrSjXjZlfUPoPtBc&height=375&width=375&expires=33265414734"
+          />
+
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta property="twitter:domain" content="bonzhivar.com" />
+          <meta property="twitter:url" content="https://bonzhivar.com" />
+          <meta
+            name="twitter:description"
+            content="مجتمع آموزشی بن‌ژیوار با هدف توسعه مهارت‌های کاربردی و آماده‌سازی حرفه‌ای افراد برای ورود به بازار کار، دوره‌های متنوعی را در حوزه‌هایی همچون معماری داخلی، طراحی، مدیریت کسب‌وکار و مهارت‌های کافی‌شاپ ارائه می‌دهد."
+          />
+          <meta
+            name="twitter:image"
+            content="https://opengraph.b-cdn.net/production/images/1d08c316-0776-456b-95a3-566294eecc64.jpg?token=jsJaBVyHeAHMIs9mapyXlO8PVrSTrSjXjZlfUPoPtBc&height=375&width=375&expires=33265414734"
+        />
       </Helmet>
 
       <section className="flex w-full h-[calc(70vh-4rem)] bg-background ">
