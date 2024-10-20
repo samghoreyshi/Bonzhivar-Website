@@ -1,4 +1,14 @@
 function CTA() {
+
+
+  const handleRedirect = () => {
+    window.open(
+      "https://docs.google.com/forms/d/e/1FAIpQLSewvPyLp8zwuTs0WRg_OT-jOUPeI0XAdlHnrO4TBQm5h7xoNA/viewform",
+      "_blank"
+    );
+  };
+
+
   return (
     <>
       <div className="w-full h-[100px] cursor-pointer flex justify-between items-center rounded-lg relative overflow-hidden group p-5">
@@ -7,7 +17,7 @@ function CTA() {
         {/* Hover pastel gradient background */}
         <div className="absolute inset-0 bg-gradient-to-r from-accent to-accentDark opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out"></div>
         {/* Arrow icon container */}
-        <div className="font-IranYekan font-normal text-sm border border-accentLight hover:border-accentLight hover:text-gray-600 rounded-lg my-5 p-1 transition-all duration-300 relative z-10 rotate-180 hover:scale-110">
+        <div onClick={handleRedirect} className="font-IranYekan font-normal text-sm border border-accentLight hover:border-accentLight hover:text-gray-600 rounded-lg my-5 p-1 transition-all duration-300 relative z-10 rotate-180 hover:scale-110">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 448 512"
