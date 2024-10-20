@@ -36,8 +36,10 @@ function Hero() {
   const closeModal = () => setIsModalOpen(false);
 
   const handleRedirect = () => {
-    
-    window.open("https://docs.google.com/forms/d/e/1FAIpQLSewvPyLp8zwuTs0WRg_OT-jOUPeI0XAdlHnrO4TBQm5h7xoNA/viewform", "_blank");
+    window.open(
+      "https://docs.google.com/forms/d/e/1FAIpQLSewvPyLp8zwuTs0WRg_OT-jOUPeI0XAdlHnrO4TBQm5h7xoNA/viewform",
+      "_blank"
+    );
   };
 
   return (
@@ -46,8 +48,20 @@ function Hero() {
         <title>مجتمع آموزشی بن‌ژیوار</title>
         <meta
           name="description"
-          content="آموزش بازسازی ساختمان برای افرادی که به دنبال مهارت‌های عملی و تکنیک‌های مدرن هستند."
+          content="مجتمع آموزشی بن‌ژیوار با هدف توسعه مهارت‌های کاربردی و آماده‌سازی حرفه‌ای افراد برای ورود به بازار کار، دوره‌های متنوعی را در حوزه‌هایی همچون معماری داخلی، طراحی، مدیریت کسب‌وکار و مهارت‌های کافی‌شاپ ارائه می‌دهد."
         />
+        <meta property="og:title" content="مجتمع آموزشی بن‌ژیوار" />
+        <meta
+          property="og:description"
+          content="مجتمع آموزشی بن‌ژیوار با هدف توسعه مهارت‌های کاربردی و آماده‌سازی حرفه‌ای افراد برای ورود به بازار کار، دوره‌های متنوعی را در حوزه‌هایی همچون معماری داخلی، طراحی، مدیریت کسب‌وکار و مهارت‌های کافی‌شاپ ارائه می‌دهد."
+        />
+        <meta
+          property="og:image"
+          content="https://bonzhivar.com/Hero-images/Aboutus-facade-Sepia.webp"
+        />
+        <meta property="og:url" content="https://bonzhivar.com" />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="مجتمع آموزشی بن‌ژیوار" />
       </Helmet>
 
       <section className="flex w-full h-[calc(70vh-4rem)] bg-background ">
