@@ -40,7 +40,7 @@ const ImageCarousel = ({
   };
 
   return (
-    <div className="overflow-hidden relative h-full rounded-3xl">
+    <div className="overflow-hidden relative h-full">
       <div
         className="flex h-full transition-transform ease-out duration-300"
         style={{ transform: `translateX(-${current * 100}%)` }}

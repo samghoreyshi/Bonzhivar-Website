@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
 import Footer from "./footer";
 import Modal from "./modal";
+import ImageCarousel from "./ImageCarousel-Hero";
 
 const imageCardData = [
   {
@@ -25,6 +26,24 @@ const imageCardData = [
     title: " دوره جامع نورپردازی فضا",
     register: "/register/course3",
     moreInfo: "/info/نورپردازی",
+  },
+];
+
+const slides = [
+  {
+    image: "/Hero-images/Slider/2.webp",
+    title: "Slide 2 Title",
+    description: "Description for slide 2",
+  },
+  {
+    image: "/Hero-images/Slider/3.webp",
+    title: "Slide 3 Title",
+    description: "Description for slide 3",
+  },
+  {
+    image: "/Hero-images/Slider/1.webp",
+    title: "Slide 4 Title",
+    description: "Description for slide 4",
   },
 ];
 
@@ -53,28 +72,45 @@ function Hero() {
         <meta property="og:url" content="https://bonzhivar.com" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="مجتمع آموزشی بن‌ژیوار" />
-          <meta
-            property="og:description"
-            content="مجتمع آموزشی بن‌ژیوار با هدف توسعه مهارت‌های کاربردی و آماده‌سازی حرفه‌ای افراد برای ورود به بازار کار، دوره‌های متنوعی را در حوزه‌هایی همچون معماری داخلی، طراحی، مدیریت کسب‌وکار و مهارت‌های کافی‌شاپ ارائه می‌دهد."
-          />
-          <meta
-            property="og:image"
-            content="https://opengraph.b-cdn.net/production/images/1d08c316-0776-456b-95a3-566294eecc64.jpg?token=jsJaBVyHeAHMIs9mapyXlO8PVrSTrSjXjZlfUPoPtBc&height=375&width=375&expires=33265414734"
-          />
+        <meta
+          property="og:description"
+          content="مجتمع آموزشی بن‌ژیوار با هدف توسعه مهارت‌های کاربردی و آماده‌سازی حرفه‌ای افراد برای ورود به بازار کار، دوره‌های متنوعی را در حوزه‌هایی همچون معماری داخلی، طراحی، مدیریت کسب‌وکار و مهارت‌های کافی‌شاپ ارائه می‌دهد."
+        />
+        <meta
+          property="og:image"
+          content="https://opengraph.b-cdn.net/production/images/1d08c316-0776-456b-95a3-566294eecc64.jpg?token=jsJaBVyHeAHMIs9mapyXlO8PVrSTrSjXjZlfUPoPtBc&height=375&width=375&expires=33265414734"
+        />
 
-          <meta name="twitter:card" content="summary_large_image" />
-          <meta property="twitter:domain" content="bonzhivar.com" />
-          <meta property="twitter:url" content="https://bonzhivar.com" />
-          <meta
-            name="twitter:description"
-            content="مجتمع آموزشی بن‌ژیوار با هدف توسعه مهارت‌های کاربردی و آماده‌سازی حرفه‌ای افراد برای ورود به بازار کار، دوره‌های متنوعی را در حوزه‌هایی همچون معماری داخلی، طراحی، مدیریت کسب‌وکار و مهارت‌های کافی‌شاپ ارائه می‌دهد."
-          />
-          <meta
-            name="twitter:image"
-            content="https://opengraph.b-cdn.net/production/images/1d08c316-0776-456b-95a3-566294eecc64.jpg?token=jsJaBVyHeAHMIs9mapyXlO8PVrSTrSjXjZlfUPoPtBc&height=375&width=375&expires=33265414734"
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta property="twitter:domain" content="bonzhivar.com" />
+        <meta property="twitter:url" content="https://bonzhivar.com" />
+        <meta
+          name="twitter:description"
+          content="مجتمع آموزشی بن‌ژیوار با هدف توسعه مهارت‌های کاربردی و آماده‌سازی حرفه‌ای افراد برای ورود به بازار کار، دوره‌های متنوعی را در حوزه‌هایی همچون معماری داخلی، طراحی، مدیریت کسب‌وکار و مهارت‌های کافی‌شاپ ارائه می‌دهد."
+        />
+        <meta
+          name="twitter:image"
+          content="https://opengraph.b-cdn.net/production/images/1d08c316-0776-456b-95a3-566294eecc64.jpg?token=jsJaBVyHeAHMIs9mapyXlO8PVrSTrSjXjZlfUPoPtBc&height=375&width=375&expires=33265414734"
         />
       </Helmet>
-
+      <section className="bg-background  w-full h-[300px] sm:h-[600px] flex justify-center items-center">
+        <ImageCarousel
+          autoSlide={true}
+          autoSlideInterval={4000}
+          titles={slides.map((slide) => slide.title)}
+        >
+          {slides.map((slide, index) => (
+            <div key={index} className="relative h-full w-full object-cover">
+              <img
+                src={slide.image}
+                className="w-full h-full object-cover"
+                alt={slide.title}
+              />
+            </div>
+          ))}
+        </ImageCarousel>
+      </section>
+{/* 
       <section className="flex w-full h-[calc(70vh-4rem)] bg-background ">
         <div className="w-full h-full bg-gray-200 flex flex-col items-end justify-center bg-[url(/Hero-images/banner.webp)] bg-center bg-cover bg-no-repeat  font-IranYekan gap-5 px-5 sm:px-10">
           <h2 className="text-accentLight text-4xl text-right font-extrabold  sm:text-5xl">
@@ -91,21 +127,28 @@ function Hero() {
             برای فراگیران هموار می‌سازد.
           </p>
         </div>
-      </section>
+      </section> */}
 
       <section>
-        <div className="w-full px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16 bg-background">
-          <div className="grid grid-cols-1 gap-y-8 lg:grid-cols-2 lg:items-center lg:gap-x-16">
+        <div className="w-full px-4 py-5 sm:px-6 sm:py-8 lg:px-8 lg:py-12 bg-background">
+          <div className="grid grid-cols-1 gap-y-8 lg:grid-cols-2 lg:items-center lg:gap-x-16 h-full">
             <div className="mx-auto w-full text-right lg:px-10 ltr:lg:text-left rtl:lg:text-right">
               <h2 className="text-3xl sm:text-5xl text-accent font-IranYekan font-extrabold">
-                مسیر خودتو پیدا کن
+                !مسیر خودتو پیدا کن
               </h2>
-              <p className="mt-6 text-accentDark font-IranYekan font-normal sm:text-justify direction-rtl">
-                آیا به دنبال شغلی هستی که با عشق و علاقه آن را دنبال کنی؟ در
-                مجتمع آموزشی بن‌ژیوار، ما به شما کمک می‌کنیم تا مسیر خود را در
-                زمینه‌های مختلف مانند معماری داخلی، توسعه کسب‌وکار و راه‌اندازی
-                کافه‌ و رستوران پیدا کنید. با آموزش‌های تخصصی و راهنمایی‌های
-                حرفه‌ای، آینده‌ای روشن و شغلی پرانرژی را برای خود بساز!
+              <p className="mt-6 text-accentDark font-IranYekan font-normal text-justify text-sm sm:text-base direction-rtl">
+                آیا به دنبال شغلی هستی که با عشق و علاقه آن را دنبال کنی؟
+                <span className="text-accent font-bold">
+                  {" "}
+                  در مجتمع آموزشی بن‌ژیوار{" "}
+                </span>
+                ، ما به شما کمک می‌کنیم تا مسیر خود را در زمینه‌های مختلف مانند{" "}
+                <span className="font-bold">معماری داخلی</span>،{" "}
+                <span className="font-bold">توسعه فردی</span>،{" "}
+                <span className="font-bold">کسب‌وکار</span> و{" "}
+                <span className="font-bold">کافه‌ و رستوران</span> پیدا کنید. با
+                آموزش‌های تخصصی و راهنمایی‌های حرفه‌ای، آینده‌ای روشن و شغلی
+                پرانرژی را برای خود بساز!
               </p>
             </div>
             <div className="grid grid-cols-2 gap-4 ">
@@ -126,7 +169,7 @@ function Hero() {
                     معماری داخلی
                   </h2>
 
-                  <p className="hidden sm:mt-1 sm:block sm:text-sm sm:text-accent text-right font-IranYekan">
+                  <p className="hidden sm:mt-1 sm:block sm:text-sm sm:text-accent text-right font-IranYekan direction-rtl">
                     در دوره‌های معماری داخلی مجتمع آموزشی بن‌ژیوار، مهارت‌های
                     اساسی و پیشرفته برای طراحی و اجرای پروژه‌های معماری داخلی و
                     خارجی به شما آموزش داده می‌شود.
@@ -150,7 +193,7 @@ function Hero() {
                     کسب و کار
                   </h2>
 
-                  <p className="hidden sm:mt-1 sm:block sm:text-sm sm:text-accent text-right font-IranYekan">
+                  <p className="hidden sm:mt-1 sm:block sm:text-sm sm:text-accent text-right font-IranYekan direction-rtl">
                     در دوره‌های کسب و کار مجتمع آموزشی بن‌ژیوار، شما می‌توانید
                     با اصول و مهارت‌های مورد نیاز برای راه‌اندازی، توسعه و
                     مدیریت موفق یک کسب‌وکار آشنا شوید.
@@ -174,7 +217,7 @@ function Hero() {
                     توسعه فردی
                   </h2>
 
-                  <p className="hidden sm:mt-1 sm:block sm:text-sm sm:text-accent text-right font-IranYekan">
+                  <p className="hidden sm:mt-1 sm:block sm:text-sm sm:text-accent text-right font-IranYekan direction-rtl">
                     در مجتمع آموزشی بن‌ژیوار، ما به اهمیت توسعه فردی به عنوان
                     یکی از کلیدی‌ترین عوامل موفقیت در زندگی شخصی و حرفه‌ای باور
                     داریم. این مفهوم شامل بهبود مداوم مهارت‌ها، تقویت
@@ -200,7 +243,7 @@ function Hero() {
                     کافه و رستوران
                   </h2>
 
-                  <p className="hidden sm:mt-1 sm:block sm:text-sm sm:text-accent text-right font-IranYekan">
+                  <p className="hidden sm:mt-1 sm:block sm:text-sm sm:text-accent text-right font-IranYekan direction-rtl">
                     اگر علاقه‌مند به دنیای پرجنب‌وجوش کافه‌ها و رستوران‌ها هستید
                     و رویای راه‌اندازی کسب‌وکار خود را دارید، دوره‌های تخصصی
                     کافه و رستوران بن‌ژیوار دقیقا همان چیزی است که نیاز دارید!
@@ -216,7 +259,7 @@ function Hero() {
 
       <section class="bg-background">
         <div class="py-4 px-4 sm:px-8 w-full">
-          <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-4 h-full">
+          <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-4 h-full ">
             <div class="col-span-2 sm:col-span-1 md:col-span-2 bg-background h-auto md:h-full flex flex-col">
               <Link
                 to="/info/بازسازی-ساختمان"
@@ -236,7 +279,7 @@ function Hero() {
             <div class="col-span-2 sm:col-span-1 md:col-span-2 bg-background">
               <Link
                 to="/info/مدلسازی-رندرینگ"
-                class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40 mb-4"
+                class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40 mb-4 sm:h-[300px]"
               >
                 <img
                   src="/Hero-images/Right-Cover-3.webp"
@@ -307,9 +350,9 @@ function Hero() {
           <h2 className="text-center text-3xl font-extrabold md:text-5xl font-IranYekan text-accent">
             مزایای دوره‌های آموزشی مجتمع بن‌ژیوار
           </h2>
-          <p className="mx-auto mb-8 mt-6 max-w-lg text-center text-sm text-accentDark sm:text-base md:mb-12 lg:mb-16 font-IranYekan direction-rtl">
+          <p className="mx-auto mb-8 mt-6 max-w-lg text-center text-sm text-accentDark sm:text-base md:mb-12 lg:mb-16 font-IranYekan direction-rtl ">
             دوره‌های آموزشی بن‌ژیوار با ترکیب آموزش تخصصی، شرایط پرداخت منعطف و
-            ارائه گواهینامه‌های بین‌المللی، فرصتی ایده‌آل برای کسب دانش و پیشرفت
+            ارائه گواهینامه‌های بین‌الملی، فرصتی ایده‌آل برای کسب دانش و پیشرفت
             حرفه‌ای شما هستند.
           </p>
           {/* Content */}
@@ -331,7 +374,7 @@ function Hero() {
               <p className="text-xl font-bold text-right font-IranYekan text-accentDark">
                 مدرسین حرفه‌ای و باتجربه
               </p>
-              <p className="text-sm text-accent text-right font-IranYekan">
+              <p className="text-sm text-accent text-right font-IranYekan direction-rtl">
                 دوره‌های ما توسط متخصصین مجرب و حرفه‌ای در هر حوزه برگزار می‌شود
                 که تجربه‌های عملی خود را با شما به اشتراک می‌گذارند.
               </p>
@@ -353,7 +396,7 @@ function Hero() {
               <p className="text-xl font-bold text-right font-IranYekan text-accentDark">
                 گواهینامه بین‌المللی معتبر
               </p>
-              <p className="text-sm text-accent text-right font-IranYekan">
+              <p className="text-sm text-accent text-right font-IranYekan direction-rtl">
                 پس از اتمام دوره‌ها، گواهینامه‌های معتبر بین‌المللی دریافت
                 می‌کنید که در هر کجای جهان قابل ارائه و اعتبار است.
               </p>
@@ -375,7 +418,7 @@ function Hero() {
               <p className="text-xl font-bold text-right font-IranYekan text-accentDark">
                 آموزش عملی و پروژه‌محور
               </p>
-              <p className="text-sm text-right font-IranYekan text-accent">
+              <p className="text-sm text-right font-IranYekan text-accent direction-rtl">
                 دوره‌های ما به صورت کاملاً عملی و پروژه‌محور طراحی شده‌اند تا
                 شما بتوانید مهارت‌های آموخته‌شده را به‌صورت واقعی در پروژه‌های
                 کاربردی پیاده‌سازی کنید و تجربه عملی کسب کنید.
@@ -394,7 +437,7 @@ function Hero() {
                   یک شروع سریع داشته باش!
                 </h2>
 
-                <p className=" text-accentLight font-IranYekan font-normal text-base sm:mt-4 text-right ">
+                <p className=" text-accentLight font-IranYekan font-normal text-sm text-justify sm:mt-4 direction-rtl">
                   در مجتمع آموزشی بن‌ژیوار، مسیر یادگیری شما سریع و آسان شروع
                   می‌شود! با فرآیند ثبت‌نام ساده و امکان پرداخت شهریه به صورت
                   قسطی، می‌توانید بدون نگرانی از هزینه‌ها، به سرعت وارد دوره‌های

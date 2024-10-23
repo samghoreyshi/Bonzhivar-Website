@@ -64,7 +64,7 @@ function Navbar() {
 
   return (
     <nav
-      className={`sticky top-0 z-20 font-IranYekan font-normal text-sm flex items-center justify-between bg-background h-16 p-5 transition-all duration-300 ${
+      className={`sticky top-0 z-20 font-IranYekan font-normal text-sm flex items-center justify-between bg-background sm:border-b border-accent h-16 p-5 transition-all duration-300 ${
         isScrolled ? "" : ""
       }`}
     >
@@ -113,7 +113,7 @@ function Navbar() {
         <SearchBox id="searchbox" className="md:hidden lg:block" />
       </div>
 
-      <ul className="text-textDark hidden md:flex fixed top-0 left-1/2 transform -translate-x-1/2 border-b gradient-border-bottom justify-center items-center gap-2 py-3 px-3 mt-2 ">
+      <ul className="text-textDark hidden md:flex fixed top-0 left-1/2 transform -translate-x-1/2  justify-center items-center gap-2 py-3 px-3 mt-2 ">
         {/* <li>
           <div className=" invisible sm:visible text-[12px] gap-2 font-IranYekan font-normal flex items-center justify-center w-auto p-4 rounded-lg h-[3px] bg-[#e4f7f0] border border-[#aee0d2] text-accent">
             <span>.وبسایت بن‌ژیوار در حال توسعه می‌باشد</span>

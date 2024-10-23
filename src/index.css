@@ -36,6 +36,11 @@
   font-style: normal;
 }
 
+::selection {
+  background-color: #AFD4CA;
+}
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
