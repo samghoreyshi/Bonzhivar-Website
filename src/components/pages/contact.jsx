@@ -25,86 +25,69 @@ function Contact() {
         </div>
       </header>
 
-      <section className="bg-background">
-        {/* Container */}
-        <div className="mx-auto max-w-3xl px-5 py-16 text-center md:px-10 md:py-20">
-          {/* Component */}
-          <h2 className="text-3xl font-extrabold md:text-5xl font-IranYekan text-accent">
-            سوالی دارید؟
-          </h2>
-          <p className="mx-auto mb-8 mt-4 max-w-lg text-accentDark text-center direction-rtl md:mb-12 lg:mb-16 font-IranYekan font-normal text-sm">
-            میتونید از طریق فرم زیر سوالات و پیشنهادات خود را برای ما ارسال
-            کنید.
-          </p>
-          {/* Form */}
-          <form
-            name="wf-form-name"
-            method="get"
-            className="mx-auto mb-4 text-right sm:px-4 md:px-20"
-          >
-            <div className="mb-4 grid w-full grid-cols-2 gap-6">
-              <div className="flex flex-col items-end">
-                <label
-                  htmlFor="name-2"
-                  className="mb-1 font-IranYekan font-bold text-accent"
-                >
-                  نام
-                </label>
-                <input
-                  type="text"
-                  className="mb-4 block h-9 w-full rounded-md border border-solid border-accent bg-background px-3 py-6 text-sm text-black text-right focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent"
-                  placeholder=""
-                  required=""
-                />
-              </div>
-              <div className="flex flex-col items-end">
-                <label
-                  htmlFor="name-3"
-                  className="mb-1 font-IranYekan font-bold text-accent"
-                >
-                  نام خانوادگی
-                </label>
-                <input
-                  type="text"
-                  className="mb-4 block h-9 w-full rounded-md border border-solid border-accent bg-background px-3 py-6 text-sm text-black text-right focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent"
-                  placeholder=""
-                  required=""
-                />
+      <section>
+        <div className="flex flex-col sm:flex-row w-full h-full justify-center items-center bg-background p-10 sm:p-28 gap-28 mx-auto ">
+          <div className="w-full h-full flex flex-col gap-20 justify-start items-end">
+            <div className="w-full flex flex-col items-end gap-5">
+              <h1 className="font-IranYekan font-extrabold text-5xl text-accent">
+                راه‌های ارتباطی
+              </h1>
+              <div className="flex flex-col justify-center items-end gap-2">
+                <h3 className="font-IranYekan">شماره تماس: 28111195</h3>
+                <h3 className="font-IranYekan direction-rtl">
+                  ایمیل: info@bonzhivar.com
+                </h3>
+                <h3 className="font-IranYekan direction-rtl">
+                  آدرس: تهران پاسداران میدان هروی جنب پاساژ گلستان پ 65
+                </h3>
+                <h2 className="font-IranYekan font-bold text-right direction-rtl text-accent mt-10">
+                اگر سوالی داشتید یا به راهنمایی نیاز داشتید میتونید از طریق فرم زیر با ما در ارتباط باشید.
+              </h2>
               </div>
             </div>
-            <div className="mb-4 flex flex-col items-end">
-              <label
-                htmlFor="field"
-                className="mb-1 font-IranYekan font-bold text-accent"
-              >
-                ایمیل
-              </label>
-              <input
-                type="text"
-                className="mb-4 block h-9 w-full rounded-md border border-solid border-accent bg-background px-3 py-6 text-sm text-black text-right focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent"
-              />
+            <div className="w-full h-full flex flex-col  gap-5">
+              <div className="w-full flex gap-2 justify-between items-center">
+                <input
+                  type="text"
+                  placeholder="نام خانوادگی"
+                  className="font-IranYekan direction-rtl outline-none w-full bg-transparent border-b border-transparent border-b-accent focus-visible:border-none focus-visible:outline-none placeholder:text-gray-400"
+                />
+                <input
+                  type="text"
+                  placeholder="نام"
+                  className="direction-rtl outline-none w-full bg-transparent border-b border-transparent border-b-accent focus-visible:border-none focus-visible:outline-none placeholder:text-gray-400"
+                />
+              </div>
+              <div className="w-full flex gap-2 justify-between items-center">
+                <input
+                  className="font-IranYekan font-regular text-base text-accent direction-rtl w-full bg-transparent border-b border-transparent border-b-accent outline-none focus-visible:border-none focus-visible:outline-none placeholder:text-gray-400"
+                  type="text"
+                  placeholder="آدرس ایمیل"
+                />
+              </div>
+              <div className="w-full flex gap-2 justify-between items-center">
+                <input
+                  className="font-IranYekan font-regular text-base text-accent direction-rtl w-full bg-transparent border-b border-transparent border-b-accent outline-none focus-visible:border-none focus-visible:outline-none placeholder:text-gray-400"
+                  type="text"
+                  placeholder="شماره تماس"
+                />
+              </div>
+              <div className="w-full flex gap-2 justify-between items-center">
+                <textarea
+                  name="text"
+                  id=""
+                  placeholder="متن پیام ..."
+                  className="font-IranYekan text-base font-regular w-full h-[200PX] resize-none direction-rtl text-right rounded-md border-accent bg-background placeholder:text-gray-400 focus:outline-none focus:ring-0"
+                ></textarea>
+              </div>
+              <div className="w-full flex gap-2 justify-between items-center">
+                <button className="bg-back-gradient font-IranYekan font-medium text-accentLight w-full p-2 rounded-md">ارسال</button>
+              </div>
             </div>
-            <div className="mb-5 md:mb-6 lg:mb-8 flex flex-col items-end">
-              <label
-                htmlFor="field"
-                className="mb-1 font-IranYekan font-bold text-accent"
-              >
-                پیام
-              </label>
-              <textarea
-                placeholder=""
-                maxLength="5000"
-                name="field"
-                className="mb-2.5 block h-auto min-h-44 w-full rounded-md border border-solid border-accent bg-background px-3 py-2 text-sm text-black text-right focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent"
-              ></textarea>
-            </div>
-
-            <input
-              type="submit"
-              value="ارسال پیام"
-              className="inline-block w-full rounded-md cursor-pointer bg-accent font-IranYekan font-bold px-6 py-3 text-center text-accentLight border border-accent hover:bg-background hover:text-accent hover:border-accent transition-all duration-300 ease-in-out"
-            />
-          </form>
+          </div>
+          <div className="w-full h-full bg-blue-400 flex justify-center items-center">
+            نقشه
+          </div>
         </div>
       </section>
     </>
