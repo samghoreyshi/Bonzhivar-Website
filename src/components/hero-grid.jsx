@@ -96,7 +96,7 @@ function Hero() {
       <section className="bg-background  w-full h-[300px] sm:h-[600px] flex justify-center items-center">
         <ImageCarousel
           autoSlide={true}
-          autoSlideInterval={4000}
+          autoSlideInterval={12000}
           titles={slides.map((slide) => slide.title)}
         >
           {slides.map((slide, index) => (

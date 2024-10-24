@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from "framer-motion";
 const ImageCarousel = ({
   children: slides,
   autoSlide = false,
-  autoSlideInterval = 4000,
+  autoSlideInterval = 9000,
   titles,
 }) => {
   const [current, setCurrent] = useState(0);
