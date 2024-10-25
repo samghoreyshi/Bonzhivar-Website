@@ -37,8 +37,9 @@
 }
 
 ::selection {
-  background-color: #AFD4CA;
+  background-color: #f8e1af;
 }
+
 
 
 @tailwind base;

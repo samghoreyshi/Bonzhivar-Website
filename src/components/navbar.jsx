@@ -64,7 +64,7 @@ function Navbar() {
 
   return (
     <nav
-      className={`sticky top-0 z-20 font-IranYekan font-normal text-sm flex items-center justify-between bg-background sm:border-b border-accent h-16 p-5 transition-all duration-300 ${
+      className={`sticky top-0 z-20 font-IranYekan font-normal text-sm flex items-center justify-between bg-background sm:border-b gradient-border-bottom h-16 p-5 transition-all duration-300 ${
         isScrolled ? "" : ""
       }`}
     >

@@ -45,6 +45,11 @@ const slides = [
     title: "Slide 4 Title",
     description: "Description for slide 4",
   },
+  {
+    image: "/Hero-images/Slider/4.webp",
+    title: "Slide 4 Title",
+    description: "Description for slide 4",
+  },
 ];
 
 function Hero() {
@@ -103,7 +108,7 @@ function Hero() {
             <div key={index} className="relative h-full w-full object-cover">
               <img
                 src={slide.image}
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover object-center"
                 alt={slide.title}
               />
             </div>
@@ -132,11 +137,11 @@ function Hero() {
       <section>
         <div className="w-full px-4 py-5 sm:px-6 sm:py-8 lg:px-8 lg:py-12 bg-background">
           <div className="grid grid-cols-1 gap-y-8 lg:grid-cols-2 lg:items-center lg:gap-x-16 h-full">
-            <div className="mx-auto w-full text-right lg:px-10 ltr:lg:text-left rtl:lg:text-right">
-              <h2 className="text-3xl sm:text-5xl text-accent font-IranYekan font-extrabold">
+            <div className="mx-auto w-full h-full flex flex-col justify-center text-right ltr:lg:text-left rtl:lg:text-right px-6 py-6 bg-[url(/Hero-images/banner-1.webp)] bg-contain bg-no-repeat bg-left">
+              <h2 className="text-3xl sm:text-5xl text-accent font-IranYekan font-extrabold ">
                 !مسیر خودتو پیدا کن
               </h2>
-              <p className="mt-6 text-accentDark font-IranYekan font-normal text-justify text-sm sm:text-base direction-rtl">
+              <p className="mt-6 text-accentDark font-IranYekan font-normal text-justify text-sm sm:text-base direction-rtl bg-background/10 backdrop-blur-sm p-2">
                 آیا به دنبال شغلی هستی که با عشق و علاقه آن را دنبال کنی؟
                 <span className="text-accent font-bold">
                   {" "}
@@ -150,6 +155,7 @@ function Hero() {
                 آموزش‌های تخصصی و راهنمایی‌های حرفه‌ای، آینده‌ای روشن و شغلی
                 پرانرژی را برای خود بساز!
               </p>
+              {/* <img className="w-full h-[435px] object-cover rounded-xl" src="/Hero-images/banner-1.webp" alt="" /> */}
             </div>
             <div className="grid grid-cols-2 gap-4 ">
               <div className="block rounded-xl border border-accent/50 p-4 shadow-sm hover:border-accent hover:ring-1 hover:ring-accent focus:outline-none focus:ring transition-all duration-300 ease-in-out">

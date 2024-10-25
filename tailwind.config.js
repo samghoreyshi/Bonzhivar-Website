@@ -38,10 +38,12 @@ export default {
       textDirection: {
         'rtl': 'rtl',
       },
+      ringColor: {
+        DEFAULT: 'transparent', // or any other value
+      },
     },
   },
   plugins: [
-    require('@tailwindcss/forms'),
     function({ addUtilities }) {
       const newUtilities = {
         '.gradient-border-bottom': {

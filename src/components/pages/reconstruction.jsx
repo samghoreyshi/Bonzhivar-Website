@@ -85,17 +85,17 @@ const Modeling = () => {
               موفق در صنعت بازسازی ساختمان آماده می‌کند و فرصت‌های شغلی جدیدی را
               برایتان به ارمغان می‌آورد.
             </p>
-            <div className="flex flex-col sm:flex-row gap-5 w-full">
-              <div className="w-full sm:w-1/2">
+            <div className="flex flex-col sm:flex-row gap-5 w-full h-full">
+              <div className="w-full h-[400px] sm:w-1/2">
                 <img
                   className="w-full h-full object-cover rounded-lg"
                   src="/reconstruction/1.webp"
                   alt="آموزش عملی بازسازی ساختمان با استفاده از جدیدترین تکنیک‌ها و ابزارهای حرفه‌ای"
                 />
               </div>
-              <div className="w-full sm:w-1/2">
+              <div className="w-full h-[400px] sm:w-1/2">
                 <img
-                  className="w-full h-full object-cover rounded-lg"
+                  className="w-full h-full  object-cover rounded-lg"
                   src="/reconstruction/2.webp"
                   alt="تیم متخصص بازسازی در حال نوسازی و بهبود دیوارها و سقف یک ساختمان قدیمی"
                 />
