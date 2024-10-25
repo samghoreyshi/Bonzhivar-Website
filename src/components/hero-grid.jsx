@@ -50,6 +50,11 @@ const slides = [
     title: "Slide 4 Title",
     description: "Description for slide 4",
   },
+  {
+    image: "/Hero-images/Slider/5.webp",
+    title: "Slide 4 Title",
+    description: "Description for slide 4",
+  },
 ];
 
 function Hero() {
