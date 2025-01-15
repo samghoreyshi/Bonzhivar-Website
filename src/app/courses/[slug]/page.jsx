@@ -79,28 +79,30 @@ export default async function CoursePage({ searchParams, params }) {
           <div className="bg-white rounded-2xl p-4 md:p-12 shadow-sm border border-gray-100">
             {/* Course Title Section */}
             <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6 mb-12">
-              <div>
-                <h1 className="text-4xl font-bold text-[#16A4BA] mb-4">{course.Title}</h1>
-                <div className="flex items-center gap-6 text-gray-600">
+              <div className="w-full md:w-auto">
+                <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#16A4BA] mb-4 leading-tight">
+                  {course.Title}
+                </h1>
+                <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-6 text-gray-600">
                   <div className="flex items-center gap-2">
-                    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg className="w-5 h-5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
                     </svg>
-                    <span>استاد دوره: {course.Prof}</span>
+                    <span className="text-sm sm:text-base">استاد دوره: {course.Prof}</span>
                   </div>
                   <div className="flex items-center gap-2">
-                    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg className="w-5 h-5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
-                    <span>{course.CourseType}</span>
+                    <span className="text-sm sm:text-base">{course.CourseType}</span>
                   </div>
                 </div>
               </div>
-              <div className="shrink-0">
-                <button className="bg-[#16A4BA] text-white px-8 py-3 rounded-xl font-medium">
+              {/* <div className="w-full sm:w-auto">
+                <button className="w-full sm:w-auto bg-[#16A4BA] text-white px-8 py-3 rounded-xl font-medium hover:bg-[#1493A7] transition-colors duration-300">
                   ثبت نام
                 </button>
-              </div>
+              </div> */}
             </div>
 
             {/* Course Info Grid */}

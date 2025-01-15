@@ -113,6 +113,7 @@ export default function CoursesClient({ courses }) {
                     slug={course.Slug}
                     prof={course.Prof}
                     image={course.CoverImage?.url}
+                    Content={course.Content}
                   />
                 ))}
               </div>
