@@ -35,7 +35,7 @@ export default function RichTextRenderer({ content }) {
         <code className="text-accent">{children}</code>
       </pre>
     ),
-    image: ({image}) => <img src={image.url} alt={image.alternativeText} className='w-full h-[500px] object-cover rounded-lg my-8'/>
+    image: ({image}) => <img src={image.url} alt={image.alternativeText} className='w-full md:h-[500px] object-cover rounded-lg my-8'/>
 
   }} />;
 }
