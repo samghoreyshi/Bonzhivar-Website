@@ -1,0 +1,46 @@
+{
+  "categories": [
+    {
+      "id": "creative-career",
+      "title": "Creative Career",
+      "subcategories": [
+        {
+          "id": "freelancing",
+          "title": "Freelancing & Creative Consulting"
+        },
+        {
+          "id": "solopreneurs",
+          "title": "Solopreneurs & Small Business"
+        },
+        {
+          "id": "content-creation",
+          "title": "Content Creation"
+        },
+        {
+          "id": "social-media",
+          "title": "Social Media"
+        },
+        {
+          "id": "style-development",
+          "title": "Style & Niche Development"
+        },
+        {
+          "id": "personal-brand",
+          "title": "Personal Brand & Marketing"
+        },
+        {
+          "id": "portfolio",
+          "title": "Portfolio Development"
+        },
+        {
+          "id": "job-search",
+          "title": "Job Search"
+        },
+        {
+          "id": "career-industry",
+          "title": "Career & Industry"
+        }
+      ]
+    }
+  ]
+}
