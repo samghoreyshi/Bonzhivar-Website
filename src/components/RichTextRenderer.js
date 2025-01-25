@@ -6,7 +6,7 @@ export default function RichTextRenderer({ content }) {
   if (!content) return null;
   
   return <BlocksRenderer content={content} blocks={{
-    paragraph: ({ children }) => <p className="text-accentDark text-justify leading-relaxed direction-rtl mb-4">{children}</p>,
+    paragraph: ({ children }) => <p className="text-accentDark text-sm md:text-md text-justify leading-relaxed direction-rtl mb-4">{children}</p>,
     heading: ({ children, level }) => {
       switch (level) {
         case 1:
@@ -21,12 +21,12 @@ export default function RichTextRenderer({ content }) {
     },
     list: ({ children, format }) => {
       if (format === 'ordered') {
-        return <ol className="list-decimal list-inside mb-4 direction-rtl">{children}</ol>;
+        return <ol className="list-decimal list-inside text-sm md:text-md m-10 leading-relaxed direction-rtl">{children}</ol>;
       }
-      return <ul className="list-disc list-inside mb-4 direction-rtl">{children}</ul>;
+      return <ul className="list-disc list-inside text-sm md:text-md m-10 leading-relaxed direction-rtl">{children}</ul>;
     },
     quote: ({ children }) => (
-      <blockquote className="border-r-4 border-accent pr-4 my-4 italic text-accentDark direction-rtl">
+      <blockquote className="border-r-4 border-accent pr-4 my-4 italic text-sm md:text-md text-accentDark direction-rtl">
         {children}
       </blockquote>
     ),

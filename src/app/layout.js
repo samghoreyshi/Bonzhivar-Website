@@ -3,6 +3,7 @@ import NextTopLoader from "nextjs-toploader";
 
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
+import WhatsAppButton from '@/components/WhatsAppButton'
 
 export const metadata = {
   title: "مجتمع مهارت آموزی بن‌ژیوار",
@@ -57,6 +58,7 @@ export default function RootLayout({ children }) {
         />
         <Navbar />
         {children}
+        <WhatsAppButton />
         <Footer />
       </body>
     </html>

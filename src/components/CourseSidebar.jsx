@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function CourseSidebar() {
   const [categories, setCategories] = useState([]);
@@ -12,7 +13,7 @@ export default function CourseSidebar() {
       try {
         const response = await fetch('https://dev.bonzhivar.com/api/courses?populate=*');
         const data = await response.json();
-        
+
         // Group courses by Filter
         const groupedCourses = data.data.reduce((acc, course) => {
           const filter = course.Filter || 'سایر';
@@ -58,11 +59,19 @@ export default function CourseSidebar() {
 
   return (
     <aside dir="rtl" className="w-72 bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
+      <div className="relative aspect-square rounded-xl overflow-hidden bg-accent mb-8">
+        <Image
+          src="/images/ad-banner.webp"
+          alt="مشاوره رایگان"
+          fill
+          className="object-cover transition-transform duration-500 group-hover:scale-105"
+        />
+      </div>
       <h2 className="text-2xl font-bold mb-6 text-gray-800 flex items-center gap-2">
         <span className="w-1.5 h-6 bg-accent rounded-full"></span>
         همه دوره‌ها
       </h2>
-      
+
       <nav className="space-y-3">
         {categories.map((category) => (
           <div key={category.id} className="relative">

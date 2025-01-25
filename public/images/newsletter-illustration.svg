@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="400" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Hand -->
+  <path d="M200 300C200 244.772 244.772 200 300 200C355.228 200 400 244.772 400 300C400 355.228 355.228 400 300 400C244.772 400 200 355.228 200 300Z" fill="#1DAFBE" fill-opacity="0.2"/>
+  <path d="M250 250C250 194.772 294.772 150 350 150C405.228 150 450 194.772 450 250C450 305.228 405.228 350 350 350C294.772 350 250 305.228 250 250Z" fill="#1DAFBE" fill-opacity="0.1"/>
+  
+  <!-- Card -->
+  <rect x="100" y="100" width="200" height="120" rx="10" fill="#1DAFBE"/>
+  <rect x="120" y="140" width="160" height="20" rx="5" fill="white" fill-opacity="0.3"/>
+  <rect x="120" y="170" width="100" height="20" rx="5" fill="white" fill-opacity="0.2"/>
+  
+  <!-- Decorative Elements -->
+  <circle cx="50" cy="50" r="5" fill="#FFD700"/>
+  <circle cx="350" cy="80" r="8" fill="#FFD700"/>
+  <circle cx="180" cy="30" r="6" fill="#FFD700"/>
+</svg>

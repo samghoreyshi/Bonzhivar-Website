@@ -16,6 +16,9 @@ export default {
       },
       backgroundImage: {
         "back-gradient": "linear-gradient(90deg, #1DAFBE 0%, #1DAFBE 100%)",
+        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
+        "gradient-conic":
+          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       colors: {
         background: "#FAF9F7",
@@ -28,6 +31,7 @@ export default {
       animation: {
         'rainbow-border': 'rainbow 2s linear infinite',
         blink: 'blink 1s step-end infinite',
+        blob: "blob 7s infinite",
       },
       keyframes: {
         rainbow: {
@@ -37,6 +41,20 @@ export default {
         blink: {
           '0%, 100%': { opacity: 1 },
           '50%': { opacity: 0 },
+        },
+        blob: {
+          "0%": {
+            transform: "translate(0px, 0px) scale(1)",
+          },
+          "33%": {
+            transform: "translate(30px, -50px) scale(1.1)",
+          },
+          "66%": {
+            transform: "translate(-20px, 20px) scale(0.9)",
+          },
+          "100%": {
+            transform: "translate(0px, 0px) scale(1)",
+          },
         },
       },
       textDirection: {

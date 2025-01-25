@@ -17,19 +17,19 @@
 }
 @font-face {
   font-family: "IranYekan";
-  src: url("/Fonts/IRANYekanX-ExtraBold.woff") format("woff");
+  src: url("/Fonts/AbarLow-Bold.woff") format("woff");
   font-weight: 700;
   font-style: normal;
 }
 @font-face {
   font-family: "IranYekan";
-  src: url("/Fonts/IRANYekanX-ExtraBlack.woff") format("woff");
+  src: url("/Fonts/AbarLow-Black.woff") format("woff");
   font-weight: 800;
   font-style: normal;
 }
 @font-face {
   font-family: "IranYekan";
-  src: url("/Fonts/IRANYekanX-Heavy.woff") format("woff");
+  src: url("/Fonts/AbarLow-Black.woff") format("woff");
   font-weight: 900;
   font-style: normal;
 }
@@ -46,7 +46,7 @@ body {
 }
 
 ::selection {
-  background-color: #c8f9ff;
+  background-color: #b4e2d8;
   color: #1a1a1a;
 }
 
