@@ -216,7 +216,7 @@ export default async function CoursePage({ searchParams, params }) {
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                         </svg>
                       </div>
-                      <span className="text-sm">پشتیبانی ۲۴/۷ در تمام روزهای هفته</span>
+                      <span className="text-sm">پشتیبانی از ساعت ۱۰ صبح تا ۵ بعد از ظهر در تمام روزهای هفته</span>
                     </div>
                     <div className="flex items-center gap-3 text-gray-600">
                       <div className="w-5 h-5 rounded-full bg-[#16A4BA]/10 flex items-center justify-center">
