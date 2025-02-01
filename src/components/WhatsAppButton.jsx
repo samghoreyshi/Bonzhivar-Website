@@ -1,7 +1,7 @@
 'use client';
 
 export default function WhatsAppButton() {
-  const phoneNumber = '+989123456789'; // Replace with your actual WhatsApp number
+  const phoneNumber = '+989361124307'; // Replace with your actual WhatsApp number
   const message = 'سلام، من از وبسایت بن‌ژیوار پیام میدم'; // Default message
   
   const handleClick = () => {
