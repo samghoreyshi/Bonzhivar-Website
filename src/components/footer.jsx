@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -76,9 +77,9 @@ export default function Footer() {
             </li>
           </ul>
           <div className="text-teal-600">
-            <a href="/" className="block">
+            <Link href="/" className="block">
               <img src="/Logo/Bonzhivar-Logo.png" alt="Bonzhivar Logo" className="w-32" />
-            </a>
+            </Link>
           </div>
         </div>
 
@@ -115,16 +116,16 @@ export default function Footer() {
             <p className="font-IranYekan font-bold text-accentDark mr-10">دسترسی سریع</p>
             <ul className="mt-6 space-y-4 text-sm font-IranYekan mr-10">
               <li>
-                <a href="/" className="text-gray-700 transition hover:opacity-75">خانه</a>
+                <Link href="/" className="text-gray-700 transition hover:opacity-75">خانه</Link>
               </li>
               <li>
-                <a href="/about" className="text-gray-700 transition hover:opacity-75">درباره ما</a>
+                <Link href="/about" className="text-gray-700 transition hover:opacity-75">درباره ما</Link>
               </li>
               <li>
-                <a href="/courses" className="text-gray-700 transition hover:opacity-75">دوره‌های آموزشی</a>
+                <Link href="/courses" className="text-gray-700 transition hover:opacity-75">دوره‌های آموزشی</Link>
               </li>
               <li>
-                <a href="/blog" className="text-gray-700 transition hover:opacity-75">مقالات</a>
+                <Link href="/blog" className="text-gray-700 transition hover:opacity-75">مقالات</Link>
               </li>
             </ul>
           </div>
