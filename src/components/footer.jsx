@@ -101,7 +101,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="https://maps.app.goo.gl/your-location-link"
+                  href="https://maps.app.goo.gl/kCYCRJeXuZ22MR238"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-700 transition hover:opacity-75"
