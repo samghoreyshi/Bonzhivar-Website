@@ -135,7 +135,7 @@ const ServicesSection = () => {
                 style={{ backgroundImage: `url(${service.imagePath})` }}
               />
               {/* Gradient overlay */}
-              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent transition-opacity duration-300" />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent transition-opacity duration-300" />
               
               {/* Title container */}
               <div className="absolute inset-x-0 bottom-0 p-6">

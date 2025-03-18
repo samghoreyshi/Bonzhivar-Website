@@ -144,7 +144,7 @@ export default function BlogPage() {
                 <span className="inline-block px-4 py-1 rounded-full text-sm font-medium bg-accent text-white mb-4">
                   مقاله ویژه
                 </span>
-                <h2 className="text-3xl font-bold text-white mb-4 line-clamp-2 group-hover:text-accent/90 transition-colors duration-200">
+                <h2 className="hidden md:block text-3xl font-bold text-white mb-4 line-clamp-2 group-hover:text-accent/90 transition-colors duration-200">
                   {featuredPost.title}
                 </h2>
                 <p className="text-gray-200 mb-4 line-clamp-2 max-w-3xl">
